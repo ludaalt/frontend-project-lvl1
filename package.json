@@ -19,5 +19,10 @@
     "url": "https://github.com/ludaalt/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/ludaalt/frontend-project-lvl1#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.9",
+    "readline-sync": "^1.4.10"
+  }
 }
