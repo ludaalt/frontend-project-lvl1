@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import './../scr/cli.js';
+import "./../scr/cli.js";
