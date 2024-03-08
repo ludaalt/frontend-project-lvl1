@@ -8,4 +8,10 @@
 
 ### Примеры выполнения
 
+#### Игра: "Проверка на чётность"
+
 ![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-even.jpg)
+
+#### Игра: "Калькулятор"
+
+![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-calc.jpg)
