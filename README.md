@@ -23,3 +23,7 @@
 #### Игра "Арифметическая прогрессия"
 
 ![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-progression.jpg)
+
+#### Игра "Простое ли число?"
+
+![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-prime.jpg)
