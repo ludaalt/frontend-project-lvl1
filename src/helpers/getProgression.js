@@ -6,7 +6,7 @@ export const getProgression = () => {
   const firstProgressionNumber = getRandomNumber(1, 10);
   const progressionStep = getRandomNumber(1, 10);
 
-  const emptyElementIndex = getRandomNumber(1, 10);
+  const emptyElementIndex = getRandomNumber(1, PROGRESSION_LENGTH - 1);
   let emptyElement = 0;
 
   let progression = [firstProgressionNumber];
