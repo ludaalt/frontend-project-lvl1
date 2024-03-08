@@ -24,3 +24,9 @@ brain-progression:
 
 brain-prime:
 	node bin/brain-prime.js
+
+test:
+	npm test
+
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8
