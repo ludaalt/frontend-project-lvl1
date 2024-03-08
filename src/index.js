@@ -1,4 +1,5 @@
-import { greeting } from "./cli.js";
+import { greeting } from './cli.js';
+
 const ROUND_COUNT = 3;
 
 export const gameLogic = (cb) => {
@@ -9,11 +10,11 @@ export const gameLogic = (cb) => {
 
     if (userAnswer !== correctAnswer) {
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
       );
       console.log(`Let's try again, ${name}!`);
       return;
-    } else console.log("Correct!");
+    } console.log('Correct!');
   }
 
   console.log(`Congratulations, ${name}!`);

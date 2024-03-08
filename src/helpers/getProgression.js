@@ -1,4 +1,4 @@
-import { getRandomNumber } from "./getRandomNumber.js";
+import { getRandomNumber } from './getRandomNumber.js';
 
 export const getProgression = () => {
   const PROGRESSION_LENGTH = 10;
@@ -9,7 +9,7 @@ export const getProgression = () => {
   const emptyElementIndex = getRandomNumber(1, PROGRESSION_LENGTH - 1);
   let emptyElement = 0;
 
-  let progression = [firstProgressionNumber];
+  const progression = [firstProgressionNumber];
 
   for (let i = 1; i < PROGRESSION_LENGTH; i += 1) {
     if (i === emptyElementIndex) {
@@ -19,7 +19,7 @@ export const getProgression = () => {
     progression.push(progression[i - 1] + progressionStep);
   }
 
-  progression[emptyElementIndex] = "..";
+  progression[emptyElementIndex] = '..';
 
-  return [emptyElement, progression.join(" ")];
+  return [emptyElement, progression.join(' ')];
 };
