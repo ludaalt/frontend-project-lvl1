@@ -19,3 +19,7 @@
 #### Игра "НОД"
 
 ![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-gcd.jpg)
+
+#### Игра "Арифметическая прогрессия"
+
+![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-progression.jpg)
