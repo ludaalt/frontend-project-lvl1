@@ -1,3 +1,5 @@
+import readlineSync from "readline-sync";
+
 import { isEvenNumber } from "../helpers/isEvenNumber.js";
 import { getRandomNumber } from "../helpers/getRandomNumber.js";
 
