@@ -15,3 +15,7 @@
 #### Игра: "Калькулятор"
 
 ![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-calc.jpg)
+
+#### Игра "НОД"
+
+![Image alt](https://github.com/ludaalt/frontend-project-lvl1/raw/main/src/assets/brain-gcd.jpg)
