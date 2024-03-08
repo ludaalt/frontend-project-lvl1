@@ -1,10 +1,11 @@
 import readlineSync from 'readline-sync';
 
-import { getRandomNumber } from '../helpers/getRandomNumber.js';
+import getRandomNumber from '../helpers/getRandomNumber.js';
+import gameLogic from '../index.js';
 
 const MATH_OPERATIONS = ['+', '-', '*'];
 
-export const calcGame = () => {
+const calcGame = () => {
   console.log('What is the result of the expression?');
 
   const firstNumber = getRandomNumber(1, 100);
@@ -29,7 +30,12 @@ export const calcGame = () => {
     case '*':
       correctAnswer = firstNumber * secondNumber;
       break;
+
+    default:
+      break;
   }
 
   return [+userAnswer, +correctAnswer];
 };
+
+export default () => gameLogic(calcGame);

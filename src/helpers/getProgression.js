@@ -1,6 +1,6 @@
-import { getRandomNumber } from './getRandomNumber.js';
+import getRandomNumber from './getRandomNumber.js';
 
-export const getProgression = () => {
+const getProgression = () => {
   const PROGRESSION_LENGTH = 10;
 
   const firstProgressionNumber = getRandomNumber(1, 10);
@@ -23,3 +23,5 @@ export const getProgression = () => {
 
   return [emptyElement, progression.join(' ')];
 };
+
+export default getProgression;

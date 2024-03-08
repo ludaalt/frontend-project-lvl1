@@ -1,9 +1,10 @@
 import readlineSync from 'readline-sync';
 
-import { getRandomNumber } from '../helpers/getRandomNumber.js';
-import { gcd } from '../helpers/gcd.js';
+import getRandomNumber from '../helpers/getRandomNumber.js';
+import gcd from '../helpers/gcd.js';
+import gameLogic from '../index.js';
 
-export const gcdGame = () => {
+const gcdGame = () => {
   console.log('Find the greatest common divisor of given numbers.');
 
   const firstNumber = getRandomNumber(1, 100);
@@ -16,3 +17,5 @@ export const gcdGame = () => {
 
   return [+userAnswer, +correctAnswer];
 };
+
+export default () => gameLogic(gcdGame);

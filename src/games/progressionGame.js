@@ -1,8 +1,9 @@
 import readlineSync from 'readline-sync';
 
-import { getProgression } from '../helpers/getProgression.js';
+import getProgression from '../helpers/getProgression.js';
+import gameLogic from '../index.js';
 
-export const progression = () => {
+const progressionGame = () => {
   console.log('What number is missing in the progression?');
 
   const [emptyElement, progression] = getProgression();
@@ -14,3 +15,5 @@ export const progression = () => {
 
   return [+userAnswer, +correctAnswer];
 };
+
+export default () => gameLogic(progressionGame);

@@ -1,8 +1,8 @@
-import { greeting } from './cli.js';
+import greeting from './cli.js';
 
 const ROUND_COUNT = 3;
 
-export const gameLogic = (cb) => {
+const gameLogic = (cb) => {
   const name = greeting();
 
   for (let i = 0; i < ROUND_COUNT; i += 1) {
@@ -14,8 +14,11 @@ export const gameLogic = (cb) => {
       );
       console.log(`Let's try again, ${name}!`);
       return;
-    } console.log('Correct!');
+    }
+    console.log('Correct!');
   }
 
   console.log(`Congratulations, ${name}!`);
 };
+
+export default gameLogic;

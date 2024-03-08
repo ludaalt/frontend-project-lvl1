@@ -1,9 +1,10 @@
 import readlineSync from 'readline-sync';
 
-import { isPrimeNumber } from '../helpers/isPrimeNumber.js';
-import { getRandomNumber } from '../helpers/getRandomNumber.js';
+import isPrimeNumber from '../helpers/isPrimeNumber.js';
+import getRandomNumber from '../helpers/getRandomNumber.js';
+import gameLogic from '../index.js';
 
-export const isPrimeGame = () => {
+const isPrimeGame = () => {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
   const number = getRandomNumber(1, 100);
@@ -15,3 +16,5 @@ export const isPrimeGame = () => {
 
   return [userAnswer, correctAnswer];
 };
+
+export default () => gameLogic(isPrimeGame);
