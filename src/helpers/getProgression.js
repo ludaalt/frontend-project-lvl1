@@ -21,5 +21,5 @@ export const getProgression = () => {
 
   progression[emptyElementIndex] = "..";
 
-  return [emptyElement, progression];
+  return [emptyElement, progression.join(" ")];
 };
